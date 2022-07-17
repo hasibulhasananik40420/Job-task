@@ -1,0 +1,69 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bgcolor {
+    /* background-color: #ece4de; */
+    background-color: #fff;
+    padding: 30px;
+
+
+}
+
+.bgcolor h3 {
+    padding-top: 20px;
+}
+
+.bgcolor h1 {
+    padding-top: 20px;
+    font-size: 4rem;
+}
+
+.bgcolor h2 {
+    padding-bottom: 50px;
+    font-size: 4rem;
+}
+
+.buttonmodal {
+    background: none;
+    border: 1px solid black;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    min-width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    font-weight: 600;
+}
+
+.buttonmodal:hover {
+    color: #fff;
+    background-color: black;
+
+}
+
+.images img {
+    height: 500px;
+    width: 600px;
+    margin-right: 50px;
+}
+
+
+@media screen and (max-width: 678px) {
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .images img {
+        height: 400px;
+        width: 450px;
+        /* margin-right: 50px; */
+    }
+
+
+
+}
